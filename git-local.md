@@ -21,8 +21,8 @@
 - git diff --cached (暂存区和历史区的版本更改比较)
 # 配置git 用户
 - git config --list   （显示git用户信息）
-- git config --global user.name="用户名字";
-- git config --global user.email="用户邮箱";
+- git config --global user.name "用户名字";
+- git config --global user.email "用户邮箱";
 
 # 初始化git
 - git init （告诉哪个文件夹-项目被git管理，一个项目初始化一次，不能文件夹嵌套初始化，管理谁在谁的文件夹下执行，执行完成后会在当文件夹下生成.git文件夹---rm -rf .git 删除本文件夹，也就意味着git不管理此项目）
