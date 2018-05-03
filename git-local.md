@@ -45,5 +45,5 @@ git rm --cached 文件名
 ## 删除关联   
 - git remote rm 名字；
 
-## 拉取线上项目
- - git pull origin master  
+## 拉取线上项目到本地
+ - git pull origin master  
