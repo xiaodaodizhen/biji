@@ -36,3 +36,11 @@ git rm --cached 文件名
 ## 撤销
  - git checkout 文件名   / .    (将暂存区的内容覆盖工作区的内容)
  - git reset HEAD 文件名 /.     (将暂存区的内容回滚到上一版本)
+
+## 把内容推到github上--关联远程仓库
+ - git remote add origin https://github.com/xiaodaodizhen/biji.git  (添加远程仓库)
+
+ - git remote -v (查看添加结果)
+ - git push origin master  (推代码)
+## 删除关联   
+- git remote rm 名字；
