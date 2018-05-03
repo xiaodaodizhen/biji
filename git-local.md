@@ -44,3 +44,6 @@ git rm --cached 文件名
  - git push origin master  (推代码)
 ## 删除关联   
 - git remote rm 名字；
+
+## 拉取线上项目
+ - git pull origin master  
